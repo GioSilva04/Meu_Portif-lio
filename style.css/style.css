@@ -1,0 +1,29 @@
+nav {
+    padding: 0;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #d6bf93;
+    padding: 50px;
+    border-radius: 20px;
+
+    list-style: none;
+    margin: 0;
+
+}
+
+.menu-links a {
+    color: #f2efce ;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.menu-links a:hover{
+    color: #532728;
+}
