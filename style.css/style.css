@@ -6,9 +6,8 @@ nav {
     display: flex;
     justify-content: center;
     gap: 200px;
-    background-color: #d6bf93;
+    background-color: #151515;
     padding: 50px;
-    border-radius: 20px;
 
     list-style: none;
     margin: 0;
@@ -25,5 +24,48 @@ nav {
 }
 
 .menu-links a:hover{
-    color: #532728;
+    color: #D8B56D;
 }
+
+#cabecalho-perfil {
+    background-image:
+        linear-gradient(rgba(9, 10, 11, 0.65), rgba(9, 10, 11, 0.65)),
+        url("../img/WhatsApp\ Image\ 2026-10-06\ at\ 01.03.33.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 80px 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.centralizado img {
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.card-informacoes {
+    padding: 35px;
+    width: 1000px;
+    border-radius: 20px;
+    border: 2px solid #D8B56D;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    color: #A7A7A7;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
